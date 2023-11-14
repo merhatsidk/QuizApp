@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="The Quiz Game"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In what year did you buy your own shoe? "></TextView>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/nineteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1999" />
+
+        <RadioButton
+            android:id="@+id/eighteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1988" />
+
+        <RadioButton
+            android:id="@+id/sixteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1969" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select companies from below list that do not manufacture shoe?" />
+
+    <CheckBox
+        android:id="@+id/nike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nike"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/adidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adidas"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/audi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Audi"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+
+            />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Reset" />
+    </LinearLayout>
+
+</LinearLayout>
